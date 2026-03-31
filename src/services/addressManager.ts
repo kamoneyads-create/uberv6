@@ -647,18 +647,18 @@ class AddressManager {
           street = i > 0 ? parts[i-1] : '';
           // O bairro é o próximo part, se não for a cidade
           if (parts[i+1] && !parts[i+1].includes(city)) {
-            neighborhood = parts[i+1].split('-')[0].trim();
+            neighborhood = parts[i+1].split('-').filter(s => s.trim()).shift()?.trim() || '';
           }
         } else {
           // Caso B: O número está dentro do part (ex: "Rua X, 123 - Bairro Y")
           const subParts = part.split(num);
           street = subParts[0].trim().replace(/,$/, '');
           number = num;
-          neighborhood = subParts[1].replace(/^-/, '').trim();
+          neighborhood = subParts[1].replace(/^[\s-]*/, '').trim();
           
           // Se o neighborhood ficou vazio, tenta o próximo part
           if (!neighborhood && parts[i+1] && !parts[i+1].includes(city)) {
-            neighborhood = parts[i+1].split('-')[0].trim();
+            neighborhood = parts[i+1].split('-').filter(s => s.trim()).shift()?.trim() || '';
           }
         }
         break;
