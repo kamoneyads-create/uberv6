@@ -17,112 +17,112 @@ class AddressManager {
     ...PRELOADED_ADDRESSES,
     'MONTES CLAROS': [
       {
-        pickup: { address: "Montes Claros Shopping, Av. Donato Quintino, 90 - Cidade Nova, Montes Claros - MG", lat: -16.7414, lng: -43.8789 },
-        destination: { address: "Aeroporto de Montes Claros, Av. do Aeroporto, s/n - Jaraguá, Montes Claros - MG", lat: -16.7061, lng: -43.8219 }
+        pickup: { address: "Rua Tiradentes, 120 - Centro, Montes Claros - MG", lat: -16.7266, lng: -43.8650 },
+        destination: { address: "Avenida Brasil, 450 - Vila Nova, Montes Claros - MG", lat: -16.7147, lng: -43.8519 }
       },
       {
-        pickup: { address: "Rodoviária de Montes Claros, Av. Donato Quintino, 550 - Cidade Nova, Montes Claros - MG", lat: -16.7425, lng: -43.8756 },
-        destination: { address: "Hospital Santa Casa, R. Barão do Rio Branco, 882 - Centro, Montes Claros - MG", lat: -16.7247, lng: -43.8614 }
+        pickup: { address: "Rua Sete de Setembro, 88 - Centro, Montes Claros - MG", lat: -16.7247, lng: -43.8614 },
+        destination: { address: "Avenida Getúlio Vargas, 1020 - Cidade Nova, Montes Claros - MG", lat: -16.7425, lng: -43.8756 }
       },
       {
-        pickup: { address: "Parque Municipal Milton Prates, Av. Major Alexandre Rodrigues, s/n - Morada do Parque, Montes Claros - MG", lat: -16.7519, lng: -43.8831 },
-        destination: { address: "Ibituruna Center Shopping, Av. José Corrêa Machado, 1079 - Ibituruna, Montes Claros - MG", lat: -16.7347, lng: -43.8458 }
+        pickup: { address: "Rua XV de Novembro, 330 - Centro, Montes Claros - MG", lat: -16.7239, lng: -43.8639 },
+        destination: { address: "Avenida Amazonas, 560 - Jaraguá, Montes Claros - MG", lat: -16.7061, lng: -43.8219 }
       },
       {
-        pickup: { address: "Praça Dr. Carlos Versiani, Centro, Montes Claros - MG", lat: -16.7266, lng: -43.8650 },
-        destination: { address: "Unimontes - Campus Universitário, Av. Rui Braga, s/n - Vila Mauricéia, Montes Claros - MG", lat: -16.7147, lng: -43.8519 }
+        pickup: { address: "Rua São José, 15 - Centro, Montes Claros - MG", lat: -16.7289, lng: -43.8689 },
+        destination: { address: "Avenida Rio Branco, 770 - Ibituruna, Montes Claros - MG", lat: -16.7347, lng: -43.8458 }
       },
       {
-        pickup: { address: "Mercado Municipal de Montes Claros, R. Cel. Joaquim Costa, s/n - Centro, Montes Claros - MG", lat: -16.7239, lng: -43.8639 },
-        destination: { address: "Hospital Universitário Clemente de Faria, Av. Cula Mangabeira, 562 - Santo Expedito, Montes Claros - MG", lat: -16.7389, lng: -43.8689 }
+        pickup: { address: "Rua Marechal Deodoro, 210 - Centro, Montes Claros - MG", lat: -16.7219, lng: -43.8619 },
+        destination: { address: "Avenida Ipiranga, 900 - Morada do Parque, Montes Claros - MG", lat: -16.7519, lng: -43.8831 }
       }
     ],
     'SÃO PAULO': [
       {
-        pickup: { address: "Shopping Eldorado, Av. Rebouças, 3970 - Pinheiros, São Paulo - SP", lat: -23.5731, lng: -46.6961 },
-        destination: { address: "Aeroporto de Congonhas, Av. Washington Luís, s/n - Vila Congonhas, São Paulo - SP", lat: -23.6273, lng: -46.6565 }
+        pickup: { address: "Avenida Paulista, 1578 - Bela Vista, São Paulo - SP", lat: -23.5614, lng: -46.6559 },
+        destination: { address: "Rua Augusta, 2200 - Cerqueira César, São Paulo - SP", lat: -23.5594, lng: -46.6639 }
       },
       {
-        pickup: { address: "Parque Ibirapuera, Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP", lat: -23.5874, lng: -46.6576 },
-        destination: { address: "MASP, Av. Paulista, 1578 - Bela Vista, São Paulo - SP", lat: -23.5614, lng: -46.6559 }
+        pickup: { address: "Rua da Consolação, 2400 - Consolação, São Paulo - SP", lat: -23.5564, lng: -46.6619 },
+        destination: { address: "Avenida Brigadeiro Faria Lima, 3477 - Itaim Bibi, São Paulo - SP", lat: -23.5854, lng: -46.6819 }
       },
       {
-        pickup: { address: "Estação da Luz, Praça da Luz, 1 - Luz, São Paulo - SP", lat: -23.5349, lng: -46.6339 },
-        destination: { address: "Allianz Parque, Av. Francisco Matarazzo, 1705 - Água Branca, São Paulo - SP", lat: -23.5273, lng: -46.6784 }
+        pickup: { address: "Rua Oscar Freire, 1100 - Jardins, São Paulo - SP", lat: -23.5644, lng: -46.6679 },
+        destination: { address: "Avenida Rebouças, 3970 - Pinheiros, São Paulo - SP", lat: -23.5731, lng: -46.6961 }
       },
       {
-        pickup: { address: "Hospital das Clínicas, Av. Dr. Enéas Carvalho de Aguiar, 255 - Cerqueira César, São Paulo - SP", lat: -23.5568, lng: -46.6685 },
-        destination: { address: "Terminal Rodoviário Tietê, Av. Cruzeiro do Sul, 1800 - Santana, São Paulo - SP", lat: -23.5162, lng: -46.6234 }
+        pickup: { address: "Rua Haddock Lobo, 1400 - Cerqueira César, São Paulo - SP", lat: -23.5624, lng: -46.6659 },
+        destination: { address: "Avenida Brasil, 1200 - Jardim América, São Paulo - SP", lat: -23.5714, lng: -46.6719 }
       },
       {
-        pickup: { address: "Bairro da Liberdade, R. Galvão Bueno, 40 - Liberdade, São Paulo - SP", lat: -23.5587, lng: -46.6339 },
-        destination: { address: "Shopping Ibirapuera, Av. Ibirapuera, 3103 - Indianópolis, São Paulo - SP", lat: -23.6103, lng: -46.6667 }
+        pickup: { address: "Rua Bela Cintra, 1800 - Consolação, São Paulo - SP", lat: -23.5584, lng: -46.6639 },
+        destination: { address: "Avenida Nove de Julho, 4500 - Itaim Bibi, São Paulo - SP", lat: -23.5814, lng: -46.6739 }
       }
     ],
     'RIO DE JANEIRO': [
       {
-        pickup: { address: "Aeroporto Santos Dumont, Praça Sen. Salgado Filho, s/n - Centro, Rio de Janeiro - RJ", lat: -22.9105, lng: -43.1631 },
-        destination: { address: "Copacabana Palace, Av. Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ", lat: -22.9672, lng: -43.1789 }
+        pickup: { address: "Avenida Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ", lat: -22.9672, lng: -43.1789 },
+        destination: { address: "Rua Barata Ribeiro, 500 - Copacabana, Rio de Janeiro - RJ", lat: -22.9652, lng: -43.1839 }
       },
       {
-        pickup: { address: "Maracanã, Av. Pres. Castelo Branco, Portão 3 - Maracanã, Rio de Janeiro - RJ", lat: -22.9121, lng: -43.2302 },
-        destination: { address: "Cristo Redentor, Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ", lat: -22.9519, lng: -43.2105 }
+        pickup: { address: "Avenida Rio Branco, 100 - Centro, Rio de Janeiro - RJ", lat: -22.9035, lng: -43.1789 },
+        destination: { address: "Rua Primeiro de Março, 50 - Centro, Rio de Janeiro - RJ", lat: -22.9015, lng: -43.1759 }
       },
       {
-        pickup: { address: "Shopping Leblon, Av. Afrânio de Melo Franco, 290 - Leblon, Rio de Janeiro - RJ", lat: -22.9825, lng: -43.2175 },
-        destination: { address: "Pão de Açúcar, Av. Pasteur, 520 - Urca, Rio de Janeiro - RJ", lat: -22.9556, lng: -43.1654 }
+        pickup: { address: "Avenida das Américas, 4666 - Barra da Tijuca, Rio de Janeiro - RJ", lat: -23.0001, lng: -43.3658 },
+        destination: { address: "Rua Olegário Maciel, 200 - Barra da Tijuca, Rio de Janeiro - RJ", lat: -23.0131, lng: -43.3058 }
       },
       {
-        pickup: { address: "Rodoviária Novo Rio, Av. Francisco Bicalho, 1 - Santo Cristo, Rio de Janeiro - RJ", lat: -22.8989, lng: -43.2094 },
-        destination: { address: "Barra Shopping, Av. das Américas, 4666 - Barra da Tijuca, Rio de Janeiro - RJ", lat: -23.0001, lng: -43.3658 }
+        pickup: { address: "Avenida Vieira Souto, 100 - Ipanema, Rio de Janeiro - RJ", lat: -22.9865, lng: -43.1989 },
+        destination: { address: "Rua Visconde de Pirajá, 300 - Ipanema, Rio de Janeiro - RJ", lat: -22.9845, lng: -43.2039 }
       },
       {
-        pickup: { address: "Jardim Botânico, R. Jardim Botânico, 1008 - Jardim Botânico, Rio de Janeiro - RJ", lat: -22.9691, lng: -43.2245 },
-        destination: { address: "Museu do Amanhã, Praça Mauá, 1 - Centro, Rio de Janeiro - RJ", lat: -22.8944, lng: -43.1794 }
+        pickup: { address: "Avenida Infante Dom Henrique, 150 - Flamengo, Rio de Janeiro - RJ", lat: -22.9375, lng: -43.1759 },
+        destination: { address: "Rua Senador Vergueiro, 150 - Flamengo, Rio de Janeiro - RJ", lat: -22.9395, lng: -43.1789 }
       }
     ],
     'BELO HORIZONTE': [
       {
-        pickup: { address: "Shopping DiamondMall, Av. Olegário Maciel, 1600 - Lourdes, Belo Horizonte - MG", lat: -19.9248, lng: -43.9458 },
-        destination: { address: "Aeroporto da Pampulha, Praça Bagatelle, 204 - São Luiz, Belo Horizonte - MG", lat: -19.8519, lng: -43.9506 }
+        pickup: { address: "Avenida Afonso Pena, 1500 - Centro, Belo Horizonte - MG", lat: -19.9230, lng: -43.9350 },
+        destination: { address: "Rua da Bahia, 1000 - Lourdes, Belo Horizonte - MG", lat: -19.9280, lng: -43.9380 }
       },
       {
-        pickup: { address: "Mineirão, Av. Antônio Abrahão Caram, 1001 - São José, Belo Horizonte - MG", lat: -19.8659, lng: -43.9710 },
-        destination: { address: "Praça da Liberdade, Savassi, Belo Horizonte - MG", lat: -19.9321, lng: -43.9381 }
+        pickup: { address: "Avenida do Contorno, 6061 - Funcionários, Belo Horizonte - MG", lat: -19.9398, lng: -43.9333 },
+        destination: { address: "Rua Cláudio Manoel, 500 - Savassi, Belo Horizonte - MG", lat: -19.9378, lng: -43.9313 }
       },
       {
-        pickup: { address: "Mercado Central, Av. Augusto de Lima, 744 - Centro, Belo Horizonte - MG", lat: -19.9230, lng: -43.9443 },
-        destination: { address: "BH Shopping, Rodovia BR-356, 3049 - Belvedere, Belo Horizonte - MG", lat: -19.9754, lng: -43.9454 }
+        pickup: { address: "Avenida Amazonas, 1200 - Centro, Belo Horizonte - MG", lat: -19.9180, lng: -43.9420 },
+        destination: { address: "Rua dos Tupis, 400 - Centro, Belo Horizonte - MG", lat: -19.9160, lng: -43.9400 }
       },
       {
-        pickup: { address: "Rodoviária de Belo Horizonte, Praça Rio Branco, s/n - Centro, Belo Horizonte - MG", lat: -19.9135, lng: -43.9408 },
-        destination: { address: "Lagoa da Pampulha, Av. Otacílio Negrão de Lima, Belo Horizonte - MG", lat: -19.8548, lng: -43.9756 }
+        pickup: { address: "Avenida Getúlio Vargas, 800 - Savassi, Belo Horizonte - MG", lat: -19.9350, lng: -43.9320 },
+        destination: { address: "Rua Fernandes Tourinho, 300 - Savassi, Belo Horizonte - MG", lat: -19.9380, lng: -43.9350 }
       },
       {
-        pickup: { address: "Pátio Savassi, Av. do Contorno, 6061 - Funcionários, Belo Horizonte - MG", lat: -19.9398, lng: -43.9333 },
-        destination: { address: "Hospital João XXIII, Av. Prof. Alfredo Balena, 400 - Santa Efigênia, Belo Horizonte - MG", lat: -19.9241, lng: -43.9317 }
+        pickup: { address: "Avenida Olegário Maciel, 1600 - Lourdes, Belo Horizonte - MG", lat: -19.9248, lng: -43.9458 },
+        destination: { address: "Rua Santa Rita Durão, 1000 - Funcionários, Belo Horizonte - MG", lat: -19.9328, lng: -43.9318 }
       }
     ],
     'CURITIBA': [
       {
-        pickup: { address: "Shopping Estação, Av. Sete de Setembro, 2775 - Rebouças, Curitiba - PR", lat: -25.4379, lng: -49.2685 },
-        destination: { address: "Jardim Botânico de Curitiba, R. Eng. Ostoja Roguski, s/n - Jardim Botânico, Curitiba - PR", lat: -25.4421, lng: -49.2393 }
+        pickup: { address: "Avenida Sete de Setembro, 2775 - Rebouças, Curitiba - PR", lat: -25.4379, lng: -49.2685 },
+        destination: { address: "Rua Marechal Deodoro, 500 - Centro, Curitiba - PR", lat: -25.4309, lng: -49.2655 }
       },
       {
-        pickup: { address: "Opera de Arame, R. João Gava, 970 - Abranches, Curitiba - PR", lat: -25.3849, lng: -49.2764 },
-        destination: { address: "Shopping Mueller, Av. Cândido de Abreu, 127 - Centro Cívico, Curitiba - PR", lat: -25.4243, lng: -49.2673 }
+        pickup: { address: "Avenida Cândido de Abreu, 127 - Centro Cívico, Curitiba - PR", lat: -25.4243, lng: -49.2673 },
+        destination: { address: "Rua Mateus Leme, 800 - São Francisco, Curitiba - PR", lat: -25.4203, lng: -49.2723 }
       },
       {
-        pickup: { address: "Museu Oscar Niemeyer, R. Mal. Hermes, 999 - Centro Cívico, Curitiba - PR", lat: -25.4101, lng: -49.2671 },
-        destination: { address: "Parque Barigui, Av. Cândido Hartmann, s/n - Bigorrilho, Curitiba - PR", lat: -25.4248, lng: -49.3072 }
+        pickup: { address: "Avenida Visconde de Guarapuava, 3000 - Batel, Curitiba - PR", lat: -25.4423, lng: -49.2783 },
+        destination: { address: "Rua Comendador Araújo, 600 - Batel, Curitiba - PR", lat: -25.4383, lng: -49.2823 }
       },
       {
-        pickup: { address: "Rodoviária de Curitiba, Av. Pres. Affonso Camargo, 330 - Jardim Botânico, Curitiba - PR", lat: -25.4369, lng: -49.2592 },
-        destination: { address: "Shopping Palladium, Av. Pres. Kennedy, 4121 - Portão, Curitiba - PR", lat: -25.4776, lng: -49.2894 }
+        pickup: { address: "Avenida Batel, 1200 - Batel, Curitiba - PR", lat: -25.4453, lng: -49.2853 },
+        destination: { address: "Rua Bispo Dom José, 2000 - Batel, Curitiba - PR", lat: -25.4483, lng: -49.2903 }
       },
       {
-        pickup: { address: "Praça do Japão, Av. Sete de Setembro, s/n - Água Verde, Curitiba - PR", lat: -25.4468, lng: -49.2821 },
-        destination: { address: "Universidade Positivo, R. Prof. Pedro Viriato Parigot de Souza, 5300 - Campo Comprido, Curitiba - PR", lat: -25.4425, lng: -49.3592 }
+        pickup: { address: "Avenida Manoel Ribas, 1000 - Mercês, Curitiba - PR", lat: -25.4253, lng: -49.2883 },
+        destination: { address: "Rua Desembargador Motta, 1500 - Bigorrilho, Curitiba - PR", lat: -25.4323, lng: -49.2953 }
       }
     ]
   };
@@ -210,12 +210,14 @@ class AddressManager {
       const ai = new GoogleGenAI({ apiKey: key });
       const response = await ai.models.generateContent({
         model: 'gemini-3-flash-preview',
-        contents: `Encontre 5 pares de endereços reais (ponto de partida e destino) EXCLUSIVAMENTE na cidade de ${city}, Brasil. 
-        IMPORTANTE: 
-        1. Retorne apenas nomes de ruas reais com números e bairros existentes EM ${city}. 
-        2. Não use nomes de locais genéricos ou pontos turísticos como shoppings ou parques.
-        3. Retorne os endereços completos e suas coordenadas aproximadas (latitude e longitude).
-        4. CERTIFIQUE-SE de que os endereços são de ${city} e não de São Paulo ou outras capitais.`,
+      contents: `Encontre 5 pares de endereços reais (ponto de partida e destino) EXCLUSIVAMENTE na cidade de ${city}, Brasil. 
+        REGRAS OBRIGATÓRIAS: 
+        1. Use APENAS nomes de ruas, números e bairros reais de ${city}. 
+        2. PROIBIDO incluir nomes de estabelecimentos, pontos turísticos ou locais genéricos (ex: Shopping, Aeroporto, Hospital, Estádio, Igreja, Escola, Delegacia, Museu, Parque, Teatro, etc.). 
+        3. Se o endereço original for "Shopping Estação, Av. Sete de Setembro, 2775", você deve retornar APENAS "Av. Sete de Setembro, 2775".
+        4. O formato deve ser estritamente: "Nome da Rua, Número - Bairro, Cidade - UF".
+        5. Retorne as coordenadas (lat, lng) reais para cada endereço.
+        6. NÃO invente endereços; use dados reais do Google Search para ${city}.`,
         config: {
           tools: [{ googleSearch: {} }],
           responseMimeType: "application/json",
@@ -419,24 +421,18 @@ class AddressManager {
     
     const baseCoords = await this.getCityCoords(city);
     
-    // Pontos de referência que existem em praticamente todas as cidades do Brasil
-    const landmarks = [
-      { name: "Praça da Matriz", type: "Centro" },
-      { name: "Prefeitura Municipal", type: "Centro" },
-      { name: "Câmara de Vereadores", type: "Centro" },
-      { name: "Terminal Rodoviário", type: "Rodoviária" },
-      { name: "Santa Casa de Misericórdia", type: "Hospital" },
-      { name: "Hospital Municipal", type: "Saúde" },
-      { name: "Mercado Municipal", type: "Comércio" },
-      { name: "Estádio Municipal", type: "Esporte" },
-      { name: "Delegacia de Polícia", type: "Segurança" },
-      { name: "Correios", type: "Centro" }
-    ];
-
     const streets = [
       "Rua Sete de Setembro", "Avenida Brasil", "Rua Quinze de Novembro", 
       "Avenida Getúlio Vargas", "Rua Castro Alves", "Avenida Independência",
-      "Rua Rui Barbosa", "Avenida Amazonas", "Rua Tiradentes", "Avenida JK"
+      "Rua Rui Barbosa", "Avenida Amazonas", "Rua Tiradentes", "Avenida JK",
+      "Rua Marechal Deodoro", "Avenida Rio Branco", "Rua São José", "Avenida Ipiranga",
+      "Rua Bahia", "Avenida Paulista", "Rua Minas Gerais", "Avenida Afonso Pena",
+      "Rua Duque de Caxias", "Avenida Beira Mar"
+    ];
+
+    const neighborhoods = [
+      "Centro", "Jardim América", "Vila Nova", "Bela Vista", "Santa Cruz",
+      "Santo Antônio", "Parque das Nações", "Boa Vista", "São Cristóvão", "Liberdade"
     ];
 
     // Função determinística simples para gerar um hash a partir do nome da cidade
@@ -452,30 +448,27 @@ class AddressManager {
     const cityHash = getHash(city);
 
     return Array.from({ length: 5 }, (_, i) => {
-      const landmarkIdx = (cityHash + i) % landmarks.length;
       const streetIdx = (cityHash + i + 7) % streets.length;
       const destStreetIdx = (cityHash + i + 13) % streets.length;
+      const neighIdx = (cityHash + i) % neighborhoods.length;
+      const destNeighIdx = (cityHash + i + 3) % neighborhoods.length;
       
-      const landmark = landmarks[landmarkIdx];
       const pStreet = streets[streetIdx];
       const dStreet = streets[destStreetIdx];
-
-      // Injeção de identidade local: Toda cidade tem uma rua ou praça com seu próprio nome
-      const finalPStreet = i === 0 ? `Avenida ${cityNameOnly}` : pStreet;
-      const finalDStreet = i === 1 ? `Rua ${cityNameOnly}` : dStreet;
-      const localLandmark = `${landmark.name} de ${cityNameOnly}`;
+      const pNeigh = neighborhoods[neighIdx];
+      const dNeigh = neighborhoods[destNeighIdx];
 
       const pNumber = 100 + (cityHash % 900) + (i * 45);
       const dNumber = 100 + ((cityHash + 500) % 900) + (i * 35);
 
       return {
         pickup: { 
-          address: `${localLandmark}, ${landmark.type} - ${cityNameOnly}${uf ? ` - ${uf}` : ''}`, 
+          address: `${pStreet}, ${pNumber} - ${pNeigh}, ${cityNameOnly}${uf ? ` - ${uf}` : ''}`, 
           lat: baseCoords[0] + (i * 0.005) - 0.01, 
           lng: baseCoords[1] + (i * 0.005) - 0.01 
         },
         destination: { 
-          address: `${finalDStreet}, ${dNumber} - Centro, ${cityNameOnly}${uf ? ` - ${uf}` : ''}`, 
+          address: `${dStreet}, ${dNumber} - ${dNeigh}, ${cityNameOnly}${uf ? ` - ${uf}` : ''}`, 
           lat: baseCoords[0] - (i * 0.007) + 0.01, 
           lng: baseCoords[1] - (i * 0.007) + 0.01 
         }
@@ -752,7 +745,14 @@ class AddressManager {
       city = parts[parts.length - 3];
     }
 
-    return `${street}, ${number} - ${neighborhood} - ${city} - ${uf || ''}`.replace(/\s-\s$/, '').trim();
+    // Final assembly with robust parts to avoid double hyphens
+    const addressParts = [];
+    if (street) addressParts.push(`${street}, ${number}`);
+    if (neighborhood) addressParts.push(neighborhood);
+    if (city) addressParts.push(city);
+    if (uf) addressParts.push(uf);
+    
+    return addressParts.join(' - ');
   }
 }
 
