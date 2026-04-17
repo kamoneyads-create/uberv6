@@ -24,6 +24,19 @@ body, html, #root {
     user-select: auto !important;
 }
 
+/* Sombra Invisível (Gradient Fade) for iOS Status Bar Legibility */
+#root::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: calc(env(safe-area-inset-top) + 40px);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+}
+
 input, textarea, [contenteditable], .selectable {
     user-select: text !important;
     -webkit-user-select: text !important;
