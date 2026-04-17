@@ -326,7 +326,8 @@ const ActiveTrip: React.FC<ActiveTripProps> = ({ trip, onEndTrip, onOpenAgenda, 
     <div className="h-full w-full flex flex-col relative overflow-hidden">
       {/* Top Navigation Bar */}
       <div 
-        className="absolute top-0 left-0 right-0 z-[1000] pt-4 px-4 pb-4"
+        className="absolute top-0 left-0 right-0 z-[1000] px-4 pb-4"
+        style={{ marginTop: 'env(safe-area-inset-top)', paddingTop: '1rem' }}
       >
         <div className="bg-black rounded-xl p-4 flex items-center gap-4 shadow-2xl">
           <div className="flex flex-col items-center justify-center min-w-[60px]">

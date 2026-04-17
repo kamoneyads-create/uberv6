@@ -31,7 +31,10 @@ const Inbox: React.FC = () => {
   };
 
   return (
-    <div className="h-full bg-white flex flex-col pt-12 pb-0 transition-colors duration-300">
+    <div 
+      className="h-full bg-white flex flex-col pb-0 transition-colors duration-300"
+      style={{ paddingTop: 'env(safe-area-inset-top)' }}
+    >
       <div className="px-6 pb-4 border-b border-gray-100 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-black">Caixa de entrada</h1>
       </div>

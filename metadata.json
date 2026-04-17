@@ -1,5 +1,6 @@
 {
-  "name": "UBER PWA IPHONE X EM TESTE (UBERV6)",
+  "name": "UBER PWA IPHONE X EM TESTE (UBERV6).",
   "description": "AJUSTADO PARA O IPHONE X COMPLETO\n\nimplementar tema escuro do mapa e do app\n\npasta github (uberv6)",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

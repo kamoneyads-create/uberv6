@@ -31,7 +31,10 @@ const Profile: React.FC<ProfileProps> = ({
   onBack 
 }) => {
   return (
-    <div className="h-full bg-white flex flex-col overflow-y-auto scrollbar-hide pt-12 px-8 pb-0 transition-colors duration-300">
+    <div 
+      className="h-full bg-white flex flex-col overflow-y-auto scrollbar-hide px-8 pb-0 transition-colors duration-300"
+      style={{ paddingTop: 'env(safe-area-inset-top)' }}
+    >
       {/* User Header Section */}
       <div 
         className="flex flex-col items-start mb-10 cursor-pointer active:scale-[0.98] active:opacity-90 transition-all duration-200"

@@ -23,7 +23,10 @@ const ManageVehicles: React.FC<ManageVehiclesProps> = ({ onBack, onAddVehicle, o
   return (
     <div className="h-full bg-white flex flex-col">
       {/* Header Fixo */}
-      <div className="pt-10 px-6 pb-4 flex items-center justify-between bg-white border-b border-gray-50 sticky top-0 z-50">
+      <div 
+        className="px-6 pb-4 flex items-center justify-between bg-white border-b border-gray-50 sticky top-0 z-50"
+        style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.5rem)' }}
+      >
         <button onClick={onBack} className="p-2 -ml-4 active:opacity-40 transition-opacity">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 12H4M4 12L10 6M4 12L10 18" stroke="black" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>

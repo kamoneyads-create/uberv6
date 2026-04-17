@@ -43,7 +43,10 @@ const Earnings: React.FC = () => {
   return (
     <div className="h-full bg-white flex flex-col overflow-y-auto pb-0 transition-colors duration-300">
       {/* Header */}
-      <div className="px-4 pt-10 pb-4 flex items-center justify-between sticky top-0 bg-white z-10 border-b border-gray-50">
+      <div 
+        className="px-4 pb-4 flex items-center justify-between sticky top-0 bg-white z-10 border-b border-gray-50"
+        style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.5rem)' }}
+      >
         <button className="p-2">
           <i className="fa-solid fa-arrow-left text-xl text-black"></i>
         </button>

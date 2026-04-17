@@ -718,7 +718,8 @@ const Dashboard: React.FC<DashboardProps> = ({
                 initial={{ y: -60, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute top-[calc(env(safe-area-inset-top)+1rem)] left-6 z-50 pointer-events-none"
+                className="absolute left-6 z-50 pointer-events-none"
+                style={{ marginTop: 'env(safe-area-inset-top)', paddingTop: '1rem' }}
               >
               <button onClick={() => setIsOnline(false)} className="w-16 h-16 bg-white rounded-full shadow-2xl flex items-center justify-center pointer-events-auto active:scale-90 transition-transform text-black"><HomeIcon /></button>
             </motion.div>
@@ -726,7 +727,8 @@ const Dashboard: React.FC<DashboardProps> = ({
                 initial={{ y: -60, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.9, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute top-[calc(env(safe-area-inset-top)+1rem)] left-0 right-0 flex justify-center z-50 pointer-events-none"
+                className="absolute left-0 right-0 flex justify-center z-50 pointer-events-none"
+                style={{ marginTop: 'env(safe-area-inset-top)', paddingTop: '1rem' }}
               >
               <div className="bg-black rounded-full px-6 py-4 flex items-center gap-2 shadow-2xl border border-white/5 pointer-events-auto cursor-pointer active:scale-95 transition-transform">
                 <span className="text-[#0E8345] text-[24px] font-black tracking-tight">R$</span>
@@ -737,7 +739,8 @@ const Dashboard: React.FC<DashboardProps> = ({
                 initial={{ y: -60, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.2, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute top-[calc(env(safe-area-inset-top)+1rem)] right-6 z-50 pointer-events-none"
+                className="absolute right-6 z-50 pointer-events-none"
+                style={{ marginTop: 'env(safe-area-inset-top)', paddingTop: '1rem' }}
               >
               <button className="w-16 h-16 bg-white rounded-full shadow-2xl flex items-center justify-center pointer-events-auto active:scale-90 transition-transform text-black"><SearchIcon size={28} /></button>
             </motion.div>

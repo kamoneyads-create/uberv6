@@ -492,7 +492,10 @@ const EditProfile: React.FC<EditProfileProps> = ({
 
   return (
     <div className="h-full bg-white flex flex-col">
-      <div className="pt-10 px-6 pb-4 flex items-center border-b border-gray-100 bg-white z-50">
+      <div 
+        className="px-6 pb-4 flex items-center border-b border-gray-100 bg-white z-50"
+        style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.5rem)' }}
+      >
         <button onClick={onBack} className="p-2 -ml-3 active:opacity-40 transition-opacity">
           <i className="fa-solid fa-arrow-left text-2xl text-black"></i>
         </button>
